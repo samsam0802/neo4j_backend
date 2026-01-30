@@ -11,7 +11,7 @@ app = FastAPI(title="강민석 반가워", version="1.0.0")
 
 # ✅ [수정] 프론트엔드 주소 허용 (CORS)
 origins = [
-    "https://neo4j-frontend-iota.vercel.app/",
+    "https://neo4j-frontend-iota.vercel.app",
 ]
 
 app.add_middleware(
